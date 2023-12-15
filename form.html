@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+<title>form</title>
+<link rel="shortcut icon" href="whale2.jpg">
+</head>
+<body>
+<nav>
+    <a href="./mypage.HTML">blue whale</a>
+    <a href="./form.HTML">feedback</a>
+</nav>
+<h1>Feedback Form</h1>
+<form action="">
+        <fieldset>
+        <legend>USER INFO</legend>
+       
+
+     <div>
+     <label for="user name">User Name</label>
+     <input TYPE="text" id="user name">
+     </div>
+     <br>
+     <div>
+        <label for="user mail">User Mail</label>
+        <input type="text" id="usermail">
+     </div>
+     <br>
+     <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="18" max="40">
+     </div>
+     <br>
+     <div>
+        <label for="date ">Birthday</label>
+        <input id="date" name="date" type="date" min="2023-01-30">
+     </div>
+     <br>
+     <div>
+        <label for="ADDRESS">Address</label>
+        <textarea id="address" rows="5" cols="20"></textarea>
+     </div>
+     <br>
+     <div>
+       <label for="photo">Profile Pic</label>
+       <INPUT ID="PHOTO" NAME="photo" type="file">
+     </div>
+     <br>
+     <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+     </div>
+     <p>Gender</p>
+     <INPUT NAME="GENDER" id="male" type="radio">
+     <label for="male">Male</label>
+     
+     <input name="gender" id="female" type="radio">
+     <label for="female">Female</label>
+
+     <input NAME="gender" id="na" type="radio">
+     <label for="na">N/A</label>
+
+       </FORM>
+       </fieldset>
+       <fieldset>
+      <legend>Preference</legend>
+      <DIV>
+        favorate food
+        <br>
+        <input id="shawarma" type="checkbox">
+        <label for="shawarma"> shawarma</label>
+      </DIV>
+      <div>
+        <input id="Burger" type="checkbox">
+        <label for="Burger">Burger</label>
+      </div>
+      <div>
+        <label for="alfarm">Alfarm</label>
+        <select name="" id="Alfarm">
+           <option value="small">small</option>
+           <option value="medium">medium</option>
+           <option value="large">large</option>
+        </select>
+      </div>
+      <div>
+        <label for="icecream">choose an iceceam flavor</label>
+        <input list="ice -cream flavor">
+        <datalist id="ice-cream flavor">
+            <option value="chocolate"></option>
+            <option value="mint"></option>
+            <option value="coconut"></option>
+            <option value="vanila"></option>
+            <option value="pistha"></option>
+        </datalist>
+      </div>
+</fieldset>
+<div>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+</div>
+
+
+
+
+
+</body>
+</html>
